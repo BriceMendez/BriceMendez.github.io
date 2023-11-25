@@ -44,7 +44,7 @@ header {
     margin: 0 25px;
 }
 
-.navbar .nav-links ul li.active a{
+.navbar .nav-links ul li.active a {
     color: red;
     font-weight: 600;
 }
@@ -56,15 +56,20 @@ header {
     right: 50px;
     width: 35px;
 }
-ul li a:hover{
-    color: blueviolet;
-    background-color: yellow;
+
+a:hover {
+    color: red;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 4px;
 }
 
 @media screen and (max-width:900px) {
+
     .navbar {
         padding: 0;
     }
+
     .navbar .logo {
         position: absolute;
         top: 30px;
@@ -91,10 +96,11 @@ ul li a:hover{
         margin-left: -100%;
         transition: all 1.5s ease;
     }
+
     /* top: 0px;
         left: 0px; léger décalage sur nav-links*/
     .nav-links.mobile-menu {
-       margin-left: 0;
+        margin-left: 0;
     }
 
     .nav-links ul {
@@ -103,6 +109,7 @@ ul li a:hover{
         align-items: center;
         margin-left: 50px;
     }
+
     .navbar .nav-links ul li {
         margin: 25px 0;
         font-size: 1.2em;
