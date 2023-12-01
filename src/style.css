@@ -20,7 +20,7 @@ header {
 
 .navbar {
     position: absolute;
-    margin: 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +30,7 @@ header {
 
 .navbar a {
     color: white;
+    margin-left: 50px;
 }
 
 .navbar .logo {
@@ -81,14 +82,14 @@ a:hover {
 
     .navbar .menu-hamburger {
         display: block;
-        right: 120px;
-        top: 35px;
+        right: 80px;
+        top: 20px;
         cursor: pointer;
     }
 
     .nav-links {
         top: -50px;
-        left: -50px;
+        left: 0;
         position: absolute;
         background-color: rgba(211, 154, 154, 0.20);
         backdrop-filter: blur(8px);
@@ -96,15 +97,8 @@ a:hover {
         height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-left: -100%;
+        align-items: center; 
         transition: all 1.5s ease;
-    }
-
-    /* top: 0px;
-        left: 0px; léger décalage sur nav-links*/
-    .nav-links.mobile-menu {
-        margin-left: 0;
     }
 
     .nav-links ul {
